@@ -642,13 +642,16 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		width: 100%; 
+		height: auto; 
+		overflow: hidden;
 	}
 
 		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.5);
-			border-radius: 4px;
+			/*background-color: rgba(19, 21, 25, 0.5);*/
+			border-radius: 0px;
 			content: '';
 			display: block;
 			height: 100%;
@@ -662,6 +665,9 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
+			width: 100%; /* Ensure the image fills the container width */
+			height: 100%; /* Ensure the image fills the container height */
+			object-fit: cover;
 		}
 
 		.image.left, .image.right {
@@ -703,6 +709,7 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+
 
 		@media screen and (max-width: 736px) {
 

@@ -1,20 +1,33 @@
-Dimension by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Personal Website
 
+Welcome to my personal website! This project showcases my portfolio, skills, and insight into who I am! It is built using HTML, CSS, and JavaScript.
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
-Hope you dig it :)
+## Features
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+- **Portfolio**: A showcase of my past projects and work.
+- **About Me**: Information about who I am and what I do.
+- **Contact**: A form to get in touch with me.
 
-(* = not included)
+## Technologies Used
 
-AJ
-aj@lkn.io | @ajlkn
+- HTML 
+- CSS
+- JavaScript
+- GitHub Pages (for hosting)
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+### Prerequisites
+
+- A web browser (for viewing the site)
+
+### How to open website
+
+Open the following link in a web browser
+	https://dylgit3.github.io/personalWebsite/
+
 
 
 Credits:
